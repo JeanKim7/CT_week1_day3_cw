@@ -1,8 +1,9 @@
 body {
-    background-color: #254E58;
+    background-color: #3AAFA9;
     color: #FEFFFF;
     padding: 0px;
     margin: 0px;
+    font-family: "Roboto", sans-serif;
 }
 
 .grid-container {
@@ -23,6 +24,28 @@ body {
 
 .nav {
     grid-area: nav;
+    background-color: #17252A;
+    position:sticky;
+    top: 0;
+}
+
+.nav-links {
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: #FEFFFF;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.nav-links > a:hover {
+    font-size:larger;
+    text-decoration:wavy;
 }
 
 .prof-pic {
