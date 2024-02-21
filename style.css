@@ -68,11 +68,11 @@ body {
 
 .prof-info {
     grid-area: prof-info;
-    background-color: #2B7A78;
     border-radius: 10px;
     display:flex;
     flex-direction: column;
     align-items:center;
+    color: #17252A;
 }
 
 .info-container {
@@ -90,4 +90,33 @@ body {
 
 .posts {
     grid-area:posts
+}
+
+.post-card {
+    background-color: #2B7A78;
+    padding: 30px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom:1vh;
+    color:#DEF2F1
+}
+
+.post-card > p {
+    margin: 2vh 0;
+    margin-bottom: 4vh
+}
+
+.post-card > div {
+    display:flex;
+    width:100%;
+    justify-content: space-around
+}
+
+.post-card > div > a {
+    text-decoration: none;
+    color: #17252A;
+}
+
+.post-card > h3 {
+    margin-top: 0%
 }
